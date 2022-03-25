@@ -1,7 +1,10 @@
 import React from 'react'
+import CurricLayout from '../../components/layout/CurricLayout';
 
-export default function HtmlCurric(props) {
+export default function HtmlCurric() {
   return (
-    <div>This is the HTML curriculum. Where do you want to start?</div>
+    <CurricLayout>
+      <div>This is the HTML curriculum. Where do you want to start?</div>
+    </CurricLayout>
   );
 }
